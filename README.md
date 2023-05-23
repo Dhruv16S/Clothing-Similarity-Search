@@ -54,3 +54,4 @@ pip install -r requirements.txt
     ```
     localhost:5000
     ```
+As mentioned the project was not deployed over Google Cloud due to issues with containerization and Docker images. The project is live at the following URL Project[https://clothing-similarity-search-422k.onrender.com] and was deployed through onrender. Initially, the website will take some time to load. 
