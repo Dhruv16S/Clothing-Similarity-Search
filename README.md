@@ -33,19 +33,19 @@ pip install -r requirements.txt
 ```
 
 ## 4. Project Components
-1.  Web Scraping
+1.  Web Scraping: 
     Web scraping for the project was implemented using selenium. For further details, kindly refer the jupyter notebook web-scraping.ipynb under the directory jupyter-files
     
-2. Text Preprocessing
+2. Text Preprocessing: 
     Text Preprocessing was performed using the nltk library. The source code can be found in preprocesing.ipynb
     
-3. Text Embedding
+3. Text Embedding: 
     Text Embedding was performed using the Sentence Transformer library and the relevant dataset can be found in the `data` directory and is labelled as `embeddings.csv`
     
-4. Text Similarity
+4. Text Similarity: 
     The cosine similarity was used to compare the input text with the database of products available.
     
-5. Deployment and Usage
+5. Deployment and Usage: 
     After cloning the repository and installing the necessary packages, run the following command from the root of the cloned repo
     ```
     python app.py 
