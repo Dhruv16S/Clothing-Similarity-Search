@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clothing Recommendations</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Clothing Recommendations</h1>
+
+    <form action="/" method="POST">
+        <label for="description">Enter Description:</label>
+        <input type="text" id="description" name="description">
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Top 10 Recommendations:</h2>
+
+    <table>
+        <tr>
+            <th>Product Name</th>
+            <th>URL</th>
+            <th>Price</th>
+        </tr>
+        {% for recommendation in recommendations %}
+        <tr>
+            <td>{{ recommendation['name'] }}</td>
+            <td><a href="{{ recommendation['url'] }}">{{ recommendation['url'] }}</a></td>
+            <td>{{ recommendation['price'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

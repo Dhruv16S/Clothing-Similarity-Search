@@ -1,0 +1,9 @@
+selenium==4.2.0
+flask
+pandas
+numpy
+scikit-learn
+sentence-transformers
+pickle
+nltk
+ast
