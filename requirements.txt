@@ -4,6 +4,5 @@ pandas
 numpy
 scikit-learn
 sentence-transformers
-pickle
+gunicorn
 nltk
-ast
