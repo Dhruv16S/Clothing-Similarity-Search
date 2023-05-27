@@ -21,7 +21,7 @@ For the purposes of this project, all the product information was scraped from t
 1. Clone this repository
 
 ```
-git clone https://github.com/your-username/clothing-similarity-search.git
+[git clone https://github.com/your-username/clothing-similarity-search.git](https://github.com/Dhruv16S/Clothing-Similarity-Search.git)
 ```
 
 2. Additionally also ensure that Chrome driver has been properly installed for your corresponding Chrome version, to enable selenioum to work properly. Follow this link to install the suitable version of [Chrome Driver](https://chromedriver.chromium.org/downloads)
